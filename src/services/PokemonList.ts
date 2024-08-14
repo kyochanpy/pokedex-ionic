@@ -24,8 +24,8 @@ const toProps = (data: PokemonItemData, publicUrl: string): PokemonItemProps => 
 }
 
 
-export const fetchPokemonItemData = async (): Promise<PokemonItemProps[]> => {
-  const {data, error} = await supabase.rpc('list_pokemons');
+export const fetchPokemonItemData = async (offsetNum: number): Promise<PokemonItemProps[]> => {
+  const {data, error} = await supabase.rpc('list_pokemons', {'offset_num': offsetNum});
 
   if (error) {
     console.error('Error fetching pokemons with types:', error);
@@ -44,9 +44,9 @@ export const fetchPokemonItemData = async (): Promise<PokemonItemProps[]> => {
 
 
 // 上の関数の動作を試したい
-fetchPokemonItemData().then((data) => {
-  console.log(data);
-});
+// fetchPokemonItemData().then((data) => {
+//   console.log(data);
+// });
 // fetchDotImageUrl('rapidash.png').then((data) => {
 //     console.log(data);
 //   });
