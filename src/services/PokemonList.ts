@@ -32,7 +32,6 @@ export const fetchPokemonItemData = async (offsetNum: number): Promise<PokemonIt
     return [];
   }
   const pokemonItemData = data as PokemonItemData[];
-  console.log(pokemonItemData);
 
   const pokemonItemProps = await Promise.all(pokemonItemData.map(async (data) => {
     const publicUrl = await fetchDotImageUrl(data.dot_image_key);
