@@ -1,71 +1,215 @@
 .normal-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #929294;
 }
 
 .fire-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #e66d3e;
 }
 
 .water-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #5185c4;
 }
 
 .grass-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #65a843;
 }
 
 .electric-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #f5d751;
 }
 
 .ice-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #6cc7eb;
 }
 
 .fighting-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #e09e41;
 }
 
 .poison-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #745199;
 }
 
 .ground-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #9c7743;
 }
 
 .flying-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #a2c4e8;
 }
 
 .psychic-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #de6a7a;
 }
 
 .bug-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #a0a345;
 }
 
 .rock-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #bfb88a;
 }
 
 .ghost-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #684870;
 }
 
 .dragon-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #525ba8;
 }
 
 .dark-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #4d4a49;
 }
 
 .steel-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #69a9c7;
 }
 
 .fairy-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+  height: 20px;
+  border-radius: 12px;
+  min-height: 16px;
+  color: #fff;
+  font-weight: bold;
   background-color: #d9b4d3;
 }
