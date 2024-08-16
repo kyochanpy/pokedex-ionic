@@ -1,12 +1,92 @@
+.photo-col {
+  padding: 1px;
+}
+
 .photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
-/* ion-col {
-  background-color: #135d54;
-  border: solid 1px #fff;
+.photo-modal {
+  --background: transparent;
+  --box-shadow: none;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.photo-modal-content {
+  --background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  transform: scale(0.7);
+}
+
+.photo-modal-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-modal-grid {
+  height: 100%;
+  padding: 0;
+}
+
+.photo-modal-row {
+  flex-direction: column;
+  height: 100%;
+}
+
+.photo-modal-name {
+  max-height: 6%;
   color: #fff;
+  font-size: 24px;
   text-align: center;
-} */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-weight: bold;
+}
+
+.photo-modal-datetime {
+  max-height: 6%;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.photo-modal-address {
+  max-height: 6%;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.photo-modal-photoframe {
+  max-height: 52%;
+  padding: 0;
+}
+
+.photo-modal-photo {
+  height: 100%;
+  width: 100%;
+}
+
+.photo-modal-top-pad {
+  max-height: 6%;
+}
+
+.photo-modal-bottom-pad {
+  max-height: 24%;
+}
